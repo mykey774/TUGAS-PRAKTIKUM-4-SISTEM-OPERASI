@@ -266,7 +266,32 @@ Buat file bernama p2.sh dengan menggunakan nano p1.sh kemudian masukkan kode ses
 
 ![so 5 no 4aaa](https://github.com/user-attachments/assets/8a87bc1c-8e8b-4a73-b783-b0c932ab1ffa)
 
-Buat file bernama p3.sh dengan menggunakan nano p1.sh kemudian masukkan kode sesuai dengan yang di soal kemudian simpan dengan menekan ctrl + x
+Buat file bernama p3.sh dengan menggunakan nano p1.sh kemudian masukkan kode sesuai dengan yang di soal kemudian simpan dengan menekan ctrl + x. Setelah membuat 3 file bash tersebut, ubah terlebih dahulu izin akses file nya agar bisa di eksekusi, caranya chmod +x p1.sh p2.sh p3.sh
 
 **b. Jalankan script**
 
+a. ./p1.sh ; ./p3.sh ; ./p2.sh
+
+![so 5 no 4b](https://github.com/user-attachments/assets/f8c27b99-1a13-4584-a9d9-d44358afeef7)
+
+Command ini berfungsi untuk mengeksekusi file p1, p2 dan p3 secara bergantian jadi pertama eksekusi p1.sh sampai selesai terus p3.sh sampai selesai dan p2.sh (p1.sh  berisi echo dan ls -l, p2.sh berisi echo dan who dan p3.sh berisi ps x)
+
+b. ./p1.sh &
+
+![so 5 no 4bb](https://github.com/user-attachments/assets/8652de90-3d03-48d9-bf30-47534e7c37b5)
+
+Command ini berfungsi untuk mengeksekusi file p1.sh di latar belakang sehingga kita tidak harus menunggu hingga selesai untuk bisa menginput command lain
+
+c. ./p1.sh & ./p2.sh & ./p3.sh
+
+![so 5 no 4bbb](https://github.com/user-attachments/assets/8165b65c-dcdd-4fd7-b4d5-798ddc347ffa)
+![so 5 no 4bbb1](https://github.com/user-attachments/assets/a575c16a-b511-4c12-99fe-e8e4b6e97c21)
+
+Command ini berfungsi untuk mengeksekusi 3 file tersebut secara bersamaan di latar belakang
+
+d. ( ./p1.sh ; ./p3.sh ) &
+
+![so 5 no 4bbbb](https://github.com/user-attachments/assets/e00255c8-4197-42cf-82e8-8261712da067)
+![so 5 no 4bbbb1](https://github.com/user-attachments/assets/ce2295e0-c9c1-49ac-9b77-ba7a5e0efeaf)
+
+Command ini berfungsi untuk mengeksekusi file yang berada di () dulu secara bergantian karena ada ; dan setelah itu di ubah ke latar belakang menggunakan tanda &
