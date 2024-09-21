@@ -1,4 +1,4 @@
-# TUGAS-PRAKTIKUM-5-SISTEM-OPERASI
+![image](https://github.com/user-attachments/assets/89050430-f4d0-4311-9514-30d91a113c24)# TUGAS-PRAKTIKUM-5-SISTEM-OPERASI
 
 **NAMA : Miki Purnawan**
 
@@ -347,6 +347,28 @@ $ kill [Nomor PID]
 Pertama-tama gunakan command ps x untuk melihat daftar proses yang sedang berjalan di background beserta nomor PID nya dan karena saya ingin menghapus salah satu proses background dari pwaktu.sh dengan pid 3834 maka kita gunakan command kill 3834 maka proses dari pwaktu.sh dengan nomor PID 3834 akan dihentikan secara permanen, dan untuk melihatnya kita gunakan kembali ps x dan dapat dilihat jika salah satu pwaktu.sh berstatus terminatted.
 
 6. History  
+
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20  
 $ HISTSIZE=20  
-$ h  
+$ history
+
+![so 5 no 6a](https://github.com/user-attachments/assets/54bde3ff-d3b1-41a8-8897-39fda3b6d9dd)
+
+Ubahlah baris maksimal output yang tersimpan di history menjadi 20 baris dengan menggunakan HISTSIZE=20 setelah itu coba gunakan command history untuk mengecek daftar history nya apakah berubah dari yang awalnya maksimal 10000 menjadi 20 baris saja
+
+b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir 
+dilakukan  
+$ !-5  
+
+
+
+
+
+c. Ulangi instruksi yang terakhir.  Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer  
+$ !!  
+
+d.  Ulangi instruksi pada history bufer nomor 150  
+$ !150  
+
+e.  Ulangi instruksi dengan prefix “ls”  
+$ !ls 
