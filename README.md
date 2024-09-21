@@ -109,21 +109,32 @@ $ exit
 
 Jelaskan perbedaan kedua utilitas tersebut.
 
-1. su miki-purnawan
+![tugas so 5 1c](https://github.com/user-attachments/assets/60c0d88d-0122-410d-a049-58fc4ef444cd)
 
+Perbedaan antara su dan su - adalah bahwa saat menggunakan su, jika kita berpindah ke akun bernama miki-purnawan, kita tetap berada di terminal yang sama dan di direktori yang sama. Namun, saat menggunakan su -, kita benar-benar berpindah ke lingkungan pengguna baru, seolah-olah kita masuk sebagai pengguna miki-purnawan dari awal. Ini berarti kita juga berpindah ke direktori home pengguna tersebut, dan semua pengaturan serta variabel lingkungan pengguna miki-purnawan dimuat. Dengan kata lain, su hanya mengganti identitas pengguna tanpa mengubah lokasi, sementara su - menciptakan sesi baru dengan semua pengaturan pengguna baru.
 
-![tugas so 5 2a](https://github.com/user-attachments/assets/aef04860-827b-4e88-8488-8b52d06e7df5)
-![Screenshot 2024-09-21 123407](https://github.com/user-attachments/assets/75625774-4d82-4dfb-a656-bd48a40d1d30)
+2. Prompt String (PS)
+   
+a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell 
 
-![tugas so 5 3a](https://github.com/user-attachments/assets/bfb50684-a59c-468f-8434-f57a1510bf22)
-![tugas so 5 3aa](https://github.com/user-attachments/assets/8b8548ff-73ab-44b2-a8af-ea77f5967b3e)
-![tugas so 5 4a](https://github.com/user-attachments/assets/a0fd4ab9-b91c-4034-be5e-73e38bc0cf1f)
-![tugas so 5 4aa](https://github.com/user-attachments/assets/5c268cbe-867c-4adc-8bee-dea05185e649)
-![tugas so 5 4aaa](https://github.com/user-attachments/assets/6675e232-0d66-4e29-bb2e-8807567f2f25)
-![tugas so 5 4b](https://github.com/user-attachments/assets/41c5a7eb-f7d9-4e5a-ad53-92aed7b005a1)
-![tugas so 5 4b1](https://github.com/user-attachments/assets/82253727-c11b-4466-99b0-b8d98d56d43c)
-![tugas so 5 4bb](https://github.com/user-attachments/assets/df81962f-d018-44b6-94f5-c675b5944323)
-![tugas so 5 4bbb](https://github.com/user-attachments/assets/80368d5f-99cf-4b82-abfe-087dd753a515)
-![tugas so 5 4bbb1](https://github.com/user-attachments/assets/ef322170-0a38-42d0-a8eb-38db03299da2)
-![tugas so 5 4bbbb](https://github.com/user-attachments/assets/2605ba5c-edeb-4af6-9760-d2ada7c6e1a2)
-![tugas so 5 4bbbb1](https://github.com/user-attachments/assets/90ee4b41-398a-4cfb-b03a-0a6f789a6dc1)
+PS1='>' 
+
+export PS1
+
+b. Eksperimen hasil PS1 :
+
+$ PS1=“\! > “ 
+
+69 > PS1=”\d > “ 
+
+Mon Sep 23 > PS1=”\t > “ 
+
+10:10:20 > PS1=”Saya=\u > “ 
+
+Saya=mahasiswa > PS1=”\w >” 
+
+~ > PS1=\h >” 
+
+![tugas so 5 2a](https://github.com/user-attachments/assets/c5943cc9-9cfa-4164-b797-2445ae43bc5b)
+![tugas so 5 2aa](https://github.com/user-attachments/assets/aacc719f-c7c6-42d2-84a6-e3f12ca47549)
+![Screenshot 2024-09-21 123407](https://github.com/user-attachments/assets/8a19c583-5834-42fd-aea6-04a7d446d630)
