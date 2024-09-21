@@ -99,10 +99,15 @@ Setelah mengedit isi file .bash_profile coba cek menggunakan source .bash_profil
 **b. Eksperimen hasil PS1 :**
 
 **$ PS1=“\! > “** 
+
 **69 > PS1=”\d > “** 
+
 **Mon Sep 23 > PS1=”\t > “** 
+
 **10:10:20 > PS1=”Saya=\u > “** 
+
 **Saya=mahasiswa > PS1=”\w >”** 
+
 **~ > PS1=\h >”** 
 
 ![Screenshot 2024-09-21 123407](https://github.com/user-attachments/assets/8a19c583-5834-42fd-aea6-04a7d446d630)
