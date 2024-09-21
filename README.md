@@ -7,6 +7,7 @@
 **KELAS : SK3B**
 
 **TUGAS PRAKTIKUM 5 SISTEM OPERASI TENTANG JOB CONTROL**
+
 1. Eksekusi seluruh profile yang ada :
    
 a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut : 
@@ -207,6 +208,48 @@ Setelah mengedit isi file dari .bash_logout, coba lah untuk log out dengan cara 
 
 ![so 5 no 3aa](https://github.com/user-attachments/assets/8560fa93-b889-4565-a669-f6cf2f0a43fe)
 
+4. Bash script  
 
+a.  Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :  
+
+**1. p1.sh**  
+
+#! /bin/bash  
+
+echo “Program p1”  
+
+ls –l  
+
+**p2.sh**
+
+#! /bin/bash  
+
+echo “Program p2”  
+
+who  
+
+**p3.sh**  
+
+#! /bin/bash  
+
+echo “Program p3”  
+
+ps x  
+
+b.  Jalankan script tersebut sebagai berikut :  
+
+$  ./p1.sh ; ./p3.sh ; ./p2.sh  
+
+$  ./p1.sh &  
+
+$  ./p1.sh & ./p2.sh & ./p3.sh &  
+
+$  ( ./p1.sh ; ./p3.sh ) & 
+
+Jawab :
+
+a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :
+
+**1. p1.sh**
 
 
