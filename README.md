@@ -280,7 +280,7 @@ $ !150
 
 ![so 5 no 6dd](https://github.com/user-attachments/assets/f0c205de-df34-4ce9-a970-7eabe642a951)
 
-awalnya saya mencoba command !150 tapi terdapat pesan error, ini dikarenakan dalam history, tidak ada command prompt yang berada di nomor 150 itu karena saya menggunakan device baru untuk mengerjakan tugas praktikum ke 5 ini dan itulah sebabnya hanya ada 80an total command yang sudah saya gunakan di terminal selama ini dan berhubung di nomor 87 ada command ls -a jadi saya menggunakan !87 untuk menggunakan command  ls -a yang berada di nomor 87 tanpa harus mengetik command ls -a.
+awalnya saya mencoba command !150 tapi terdapat pesan error, ini dikarenakan dalam history, tidak ada command prompt yang berada di nomor 150 itu karena saya menggunakan device baru untuk mengerjakan tugas praktikum ke 5 dimulai dari soal nomor 4, itulah sebabnya hanya ada 80an total command yang sudah saya gunakan di terminal selama ini dan berhubung di nomor 87 ada command ls -a jadi saya menggunakan !87 untuk memproses command  ls -a yang berada di nomor 87 tanpa harus mengetik command ls -a.
 
 e.  Ulangi instruksi dengan prefix “ls”  
 $ !ls 
