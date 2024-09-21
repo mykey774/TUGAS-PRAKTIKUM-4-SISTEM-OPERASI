@@ -87,8 +87,10 @@ Untuk yang ini dikarenakan file .bash_login dan .bash_profile tidak ada, jadi sa
 ![tugas so 5 1bbbb](https://github.com/user-attachments/assets/04a5197e-dc1d-4727-a06b-205cce71d71b)
 ![tugas so 5 1bbbbb](https://github.com/user-attachments/assets/bb30d89a-b561-4a8e-a849-9567577f05b7)
 ![tugas so 5 1c](https://github.com/user-attachments/assets/19712987-05a7-45c3-9120-8b22b60c66c1)
-![tugas so 5 2 b](https://github.com/user-attachments/assets/76e57fe5-6e7d-4036-bd25-4c851f25c36a)
+
 ![tugas so 5 2a](https://github.com/user-attachments/assets/aef04860-827b-4e88-8488-8b52d06e7df5)
+![Screenshot 2024-09-21 123407](https://github.com/user-attachments/assets/75625774-4d82-4dfb-a656-bd48a40d1d30)
+
 ![tugas so 5 3a](https://github.com/user-attachments/assets/bfb50684-a59c-468f-8434-f57a1510bf22)
 ![tugas so 5 3aa](https://github.com/user-attachments/assets/8b8548ff-73ab-44b2-a8af-ea77f5967b3e)
 ![tugas so 5 4a](https://github.com/user-attachments/assets/a0fd4ab9-b91c-4034-be5e-73e38bc0cf1f)
