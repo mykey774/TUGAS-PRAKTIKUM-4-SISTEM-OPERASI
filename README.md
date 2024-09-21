@@ -169,7 +169,17 @@ Saya=mahasiswa > PS1=”\w >”
 
 Penjelasan :
 
-a. PS1=“\! > “ : Command ini untuk mengetahui berapa banyak history command prompt yang sudah kita gunakan dalam terminal dengan menjadikan output dari ! sebagai prompt shell sehingga prompt shell yang awalnya miki-purnawan@Miki-Purnawan-VirtualBox: $- menjadi 315>
+a. PS1=“\! > “ : Command ini untuk mengetahui berapa banyak history command prompt yang sudah kita gunakan dalam terminal dengan menjadikan output dari ! sebagai prompt shell sehingga prompt shell yang awalnya miki-purnawan@Miki-Purnawan-VirtualBox:~$ menjadi 315> saja (315 adalah history command prompt yang sudah digunkakan dan > hanyalah simbol, sama seperti $, # dan lain lain)
 
-b. 
+b. 315>PS1="\d>" : ini untuk menampilkan hari, bulan dan tanggal yang kemudian hasil output nya dijadikan prompt shell 
+
+c. Sat Sep 21>PS1="\t>" : ini untuk menampilkan waktu dengan format jam, menit dan detik kemudian hasil output nya menjadi prompt shell
+
+d. 12:33::23>PS1="miki-purnawan=\u>" : ini berfungsi untuk menampilkan username yang digunakan kemudian dijadikan sebagai prompt shell bersamaan dengan miki-purnawan= sehingga prompt shell nya adalah miki-purnawan=miki-purnawan>
+
+e. miki-purnawan=miki-purnawan>PS1="\w>" : ini berfungsi untuk menampilkan direktori saat ini lalu dijadikan prompt shell, karena saya berada di direktori ~ maka dari itulah prompt shell nya berubah menjadi ~>
+
+f. ~>PS1="\h>" : ini berfungsi untuk menampilkan nama host atau nama komputer kemudian hasil output nya dijadikan teks statis di prompt shell 
+
+
 
