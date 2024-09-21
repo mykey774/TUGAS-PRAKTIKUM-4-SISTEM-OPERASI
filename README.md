@@ -43,10 +43,46 @@ $ exit
 
 Jelaskan perbedaan kedua utilitas tersebut.
 
+Jawab :
+
+a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut : 
+
+echo “Profile dari /etc/profile” 
+
 ![tugas so 5 1a](https://github.com/user-attachments/assets/4aaa5326-97c4-4acd-8ae4-836a263b3668)
+
+Pertama-tama buat edit isi file dari profile yang berada di direktori /etc/ dengan cara nano /etc/profile, kemudian ketikkan echo "Profile dari /etc/profile", pesan echo ini akan muncul setiap kali kita akan login ke terminal
+
 ![tugas so 5 1aaa](https://github.com/user-attachments/assets/7a6bbf09-d5a2-415e-b1d8-484d1008d4b9)
+
+setelah berhasil mengedit isi file dari /etc/profile, coba cek menggunakan source apakah ada perubahan, seharusnya jika sudah benar maka pesan echo yang baru kita masukkan ke file akan muncul seperti gambar di atas
+
+b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu : 
+
+/home/stD02001/.bash_profile 
+
+/home/. stD02001/.bash_login 
+
+/home/mahasiswa/.profile 
+
+/home/mahasiswa/.bashrc 
+
+Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap  file tersebut, cantumkan instruksi echo, misalnya pada /home/ mahasiswa/.bash_profile : 
+
+echo “Profile dari .bash_profile” 
+
+Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang bersangkutan.
+
+Untuk yang ini dikarenakan file .bash_login dan .bash_profile tidak ada, jadi saya akan membuat sendiri file tersebut di direktori /home/miki-purnawan/ (miki-purnawan adalah username saya) :
+
 ![tugas so 5 1b](https://github.com/user-attachments/assets/f4275634-332e-4940-b132-991090b82294)
+
+1. nano .bash_profile, setelah menggunakan command nano, ketikkan echo "Profile dari .bash_profile"
+
 ![tugas so 5 1bb](https://github.com/user-attachments/assets/7b8f15e2-048d-42ca-8553-92dedbc70d9b)
+
+2. nano .bash_login, ketikkan echo "Profile dari .bash_login"
+
 ![tugas so 5 1bbb](https://github.com/user-attachments/assets/cb509fde-94ca-4dca-adcd-82053b6c6d14)
 ![tugas so 5 1bbbb](https://github.com/user-attachments/assets/04a5197e-dc1d-4727-a06b-205cce71d71b)
 ![tugas so 5 1bbbbb](https://github.com/user-attachments/assets/bb30d89a-b561-4a8e-a849-9567577f05b7)
