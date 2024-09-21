@@ -252,4 +252,21 @@ a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :
 
 **1. p1.sh**
 
+![so 5 no 4a](https://github.com/user-attachments/assets/41a77a70-016e-4481-83e1-51d3f4ad3549)
+
+Buat file bernama p1.sh dengan menggunakan nano p1.sh kemudian masukkan kode sesuai dengan yang di soal kemudian simpan dengan menekan ctrl + x
+
+**2. p2.sh**
+
+![so 5 no 4aa](https://github.com/user-attachments/assets/d95b6a37-c3cb-476c-98a9-77488b58ceff)
+
+Buat file bernama p2.sh dengan menggunakan nano p1.sh kemudian masukkan kode sesuai dengan yang di soal kemudian simpan dengan menekan ctrl + x
+
+**3. p3.sh**
+
+![so 5 no 4aaa](https://github.com/user-attachments/assets/8a87bc1c-8e8b-4a73-b783-b0c932ab1ffa)
+
+Buat file bernama p3.sh dengan menggunakan nano p1.sh kemudian masukkan kode sesuai dengan yang di soal kemudian simpan dengan menekan ctrl + x
+
+**b. Jalankan script**
 
