@@ -14,42 +14,6 @@ a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut :
 
 echo “Profile dari /etc/profile” 
 
-b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu : 
-
-/home/stD02001/.bash_profile 
-
-/home/. stD02001/.bash_login 
-
-/home/mahasiswa/.profile 
-
-/home/mahasiswa/.bashrc 
-
-Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap  file tersebut, cantumkan instruksi echo, misalnya pada /home/ mahasiswa/.bash_profile : 
-
-echo “Profile dari .bash_profile” 
-
-Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang bersangkutan. 
-
-c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: 
-
-$ su mahasiswa 
-
-$ exit 
-
-kemudian gunakan opsi – sebagai berikut : 
-
-$ su – mahasiswa 
-
-$ exit 
-
-Jelaskan perbedaan kedua utilitas tersebut.
-
-Jawab :
-
-a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut : 
-
-echo “Profile dari /etc/profile” 
-
 ![tugas so 5 1a](https://github.com/user-attachments/assets/4aaa5326-97c4-4acd-8ae4-836a263b3668)
 
 Pertama-tama buat edit isi file dari profile yang berada di direktori /etc/ dengan cara nano /etc/profile, kemudian ketikkan echo "Profile dari /etc/profile", pesan echo ini akan muncul setiap kali kita akan login ke terminal
@@ -73,6 +37,8 @@ Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap  file tersebut,
 echo “Profile dari .bash_profile” 
 
 Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang bersangkutan.
+
+jawab :
 
 Untuk yang ini dikarenakan file .bash_login dan .bash_profile tidak ada, jadi saya akan membuat sendiri file tersebut di direktori /home/miki-purnawan/ (miki-purnawan adalah username saya) :
 
@@ -115,34 +81,12 @@ Jelaskan perbedaan kedua utilitas tersebut.
 Perbedaan antara su dan su - adalah bahwa saat menggunakan su, jika kita berpindah ke akun bernama miki-purnawan, kita tetap berada di terminal yang sama dan di direktori yang sama. Namun, saat menggunakan su -, kita benar-benar berpindah ke lingkungan pengguna baru, seolah-olah kita masuk sebagai pengguna miki-purnawan dari awal. Ini berarti kita juga berpindah ke direktori home pengguna tersebut, dan semua pengaturan serta variabel lingkungan pengguna miki-purnawan dimuat. Dengan kata lain, su hanya mengganti identitas pengguna tanpa mengubah lokasi, sementara su - menciptakan sesi baru dengan semua pengaturan pengguna baru.
 
 2. Prompt String (PS)
-   
-a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell 
 
-PS1='>' 
+**a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell**
 
-export PS1
+**PS1='>'** 
 
-b. Eksperimen hasil PS1 :
-
-$ PS1=“\! > “ 
-
-69 > PS1=”\d > “ 
-
-Mon Sep 23 > PS1=”\t > “ 
-
-10:10:20 > PS1=”Saya=\u > “ 
-
-Saya=mahasiswa > PS1=”\w >” 
-
-~ > PS1=\h >” 
-
-Jawab :
-
-a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell 
-
-PS1='>' 
-
-export PS1
+**export PS1**
 
 ![tugas so 5 2a](https://github.com/user-attachments/assets/c5943cc9-9cfa-4164-b797-2445ae43bc5b)
 
@@ -152,19 +96,14 @@ Kita edit file .bash_profile menggunakan prompt nano .bash_profile, lalu ketikka
 
 Setelah mengedit isi file .bash_profile coba cek menggunakan source .bash_profile untuk melihat apakah tanda $ berubah menjadi > sesuai dengan PS1='>'
 
-b. Eksperimen hasil PS1 :
+**b. Eksperimen hasil PS1 :**
 
-$ PS1=“\! > “ 
-
-69 > PS1=”\d > “ 
-
-Mon Sep 23 > PS1=”\t > “ 
-
-10:10:20 > PS1=”Saya=\u > “ 
-
-Saya=mahasiswa > PS1=”\w >” 
-
-~ > PS1=\h >” 
+**$ PS1=“\! > “** 
+**69 > PS1=”\d > “** 
+**Mon Sep 23 > PS1=”\t > “** 
+**10:10:20 > PS1=”Saya=\u > “** 
+**Saya=mahasiswa > PS1=”\w >”** 
+**~ > PS1=\h >”** 
 
 ![Screenshot 2024-09-21 123407](https://github.com/user-attachments/assets/8a19c583-5834-42fd-aea6-04a7d446d630)
 
@@ -187,9 +126,7 @@ f. ~>PS1="\h>" : ini berfungsi untuk menampilkan nama host atau nama komputer ke
 Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout :
 
 Echo “Terima kasih atas sesi yang diberikan”  
-
 Sleep 5  
-
 clear  
 
 Jawab :
@@ -197,9 +134,7 @@ Jawab :
 Edit file pada .bash_logout dan ketikkan :
 
 Echo “Terima kasih atas sesi yang diberikan”  
-
 Sleep 5  
-
 clear 
 
 ![so 5 no 3a](https://github.com/user-attachments/assets/8b415e87-0493-4a85-ada4-434a8da2ad81)
@@ -209,44 +144,6 @@ Setelah mengedit isi file dari .bash_logout, coba lah untuk log out dengan cara 
 ![so 5 no 3aa](https://github.com/user-attachments/assets/8560fa93-b889-4565-a669-f6cf2f0a43fe)
 
 4. Bash script  
-
-a.  Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :  
-
-**1. p1.sh**  
-
-#! /bin/bash  
-
-echo “Program p1”  
-
-ls –l  
-
-**p2.sh**
-
-#! /bin/bash  
-
-echo “Program p2”  
-
-who  
-
-**p3.sh**  
-
-#! /bin/bash  
-
-echo “Program p3”  
-
-ps x  
-
-b.  Jalankan script tersebut sebagai berikut :  
-
-$  ./p1.sh ; ./p3.sh ; ./p2.sh  
-
-$  ./p1.sh &  
-
-$  ./p1.sh & ./p2.sh & ./p3.sh &  
-
-$  ( ./p1.sh ; ./p3.sh ) & 
-
-Jawab :
 
 a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :
 
