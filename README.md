@@ -295,3 +295,15 @@ d. ( ./p1.sh ; ./p3.sh ) &
 ![so 5 no 4bbbb1](https://github.com/user-attachments/assets/ce2295e0-c9c1-49ac-9b77-ba7a5e0efeaf)
 
 Command ini berfungsi untuk mengeksekusi file yang berada di () dulu secara bergantian karena ada ; dan setelah itu di ubah ke latar belakang menggunakan tanda &
+
+5. jobs
+
+a.  Buat shell-script yang melakukan loop dengan nama pwaktu.sh,setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.  
+
+#!/bin/bash  
+while [ true ]  
+do  
+date >> hasil  
+sleep 10  
+done  
+
