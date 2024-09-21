@@ -307,3 +307,14 @@ date >> hasil
 sleep 10  
 done  
 
+![so 5 no 5a](https://github.com/user-attachments/assets/831e4396-b269-494c-8f3e-df8cacb9e072)
+
+![so 5 no 5aa](https://github.com/user-attachments/assets/595c45da-8d74-4e08-8243-38683a7bfa93)
+
+Pertama-tama buat file bash dengan nama pwaktu.sh dengan menggunakan nano, kemudian isi file nya sesuai dengan yang di soal, kemudian jika sudah ubah izin akses dari file nya terlebih dahulu agar bisa dieksekusi dengan chmod +x, jika sudah diubah izin akses nya, selanjutnya tinggal jalankan file pwaktu.sh dengan cara ./pwaktu.sh kemudian terminal akan memproses isi file pwaktu.sh, dikarenakan kita menggunakan loop while maka untuk menghentikan nya, kita cukup menekan ctrl + c. Langkah selanjutnya adalah mengecek isi file dari hasil proses eksekusi pwaktu.sh ketika while itu true maka secara otomatis terminal akan megngirimkan output dari tanggal (date) ke file hasil setiap 10 detik, untuk mengecek nya cukup gunakan command cat hasil.
+
+b.  Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background 
+sebagai berikut :  
+$ jobs  
+$ find / -print > files 2>/dev/null &  
+$ jobs 
