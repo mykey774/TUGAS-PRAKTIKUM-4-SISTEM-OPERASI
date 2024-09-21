@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/89050430-f4d0-4311-9514-30d91a113c24)# TUGAS-PRAKTIKUM-5-SISTEM-OPERASI
+# TUGAS-PRAKTIKUM-5-SISTEM-OPERASI
 
 **NAMA : Miki Purnawan**
 
