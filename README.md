@@ -169,7 +169,7 @@ Saya=mahasiswa > PS1=”\w >”
 
 Penjelasan :
 
-a. PS1=“\! > “ : Command ini untuk mengetahui berapa banyak history command prompt yang sudah kita gunakan dalam terminal dengan menjadikan output dari ! sebagai prompt shell sehingga prompt shell yang awalnya 
+a. PS1=“\! > “ : Command ini untuk mengetahui berapa banyak history command prompt yang sudah kita gunakan dalam terminal dengan menjadikan output dari ! sebagai prompt shell sehingga prompt shell yang awalnya miki-purnawan@Miki-Purnawan-VirtualBox: $- menjadi 315>
 
 b. 
 
