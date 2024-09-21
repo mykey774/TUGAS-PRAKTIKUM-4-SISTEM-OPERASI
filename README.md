@@ -181,5 +181,16 @@ e. miki-purnawan=miki-purnawan>PS1="\w>" : ini berfungsi untuk menampilkan direk
 
 f. ~>PS1="\h>" : ini berfungsi untuk menampilkan nama host atau nama komputer kemudian hasil output nya dijadikan teks statis di prompt shell 
 
+3.  Logout  
+
+Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout :
+
+Echo “Terima kasih atas sesi yang diberikan”  
+
+Sleep 5  
+
+clear  
+
+Jawab :
 
 
