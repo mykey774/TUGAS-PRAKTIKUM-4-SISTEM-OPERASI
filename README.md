@@ -193,4 +193,20 @@ clear
 
 Jawab :
 
+Edit file pada .bash_logout dan ketikkan :
+
+Echo “Terima kasih atas sesi yang diberikan”  
+
+Sleep 5  
+
+clear 
+
+![so 5 no 3a](https://github.com/user-attachments/assets/8b415e87-0493-4a85-ada4-434a8da2ad81)
+
+Setelah mengedit isi file dari .bash_logout, coba lah untuk log out dengan cara exit untuk melihat apakah ada pesan echo kemudian sistem terminal akan sleep selama 5 detik dan setelah itu akan mengeksekusi command terminal yang sudah kita masukkan di dalam file .bash_logout. Contoh output nya seperti gambar di bawah ini (jika pesan echo tidak muncul setelah mengedit isi file .bash_logout, cobla untuk login menggunakan su - "username" kemudian logout kembali)
+
+![so 5 no 3aa](https://github.com/user-attachments/assets/8560fa93-b889-4565-a669-f6cf2f0a43fe)
+
+
+
 
