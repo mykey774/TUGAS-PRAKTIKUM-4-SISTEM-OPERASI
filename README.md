@@ -82,11 +82,11 @@ Perbedaan antara su dan su - adalah bahwa saat menggunakan su, jika kita berpind
 
 2. Prompt String (PS)
 
-**a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell**
+a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell
 
-**PS1='>'** 
+PS1='>' 
 
-**export PS1**
+export PS1
 
 ![tugas so 5 2a](https://github.com/user-attachments/assets/c5943cc9-9cfa-4164-b797-2445ae43bc5b)
 
@@ -96,19 +96,19 @@ Kita edit file .bash_profile menggunakan prompt nano .bash_profile, lalu ketikka
 
 Setelah mengedit isi file .bash_profile coba cek menggunakan source .bash_profile untuk melihat apakah tanda $ berubah menjadi > sesuai dengan PS1='>'
 
-**b. Eksperimen hasil PS1 :**
+b. Eksperimen hasil PS1 :
 
-**$ PS1=“\! > “** 
+$ PS1=“\! > “
 
-**69 > PS1=”\d > “** 
+69 > PS1=”\d > “ 
 
-**Mon Sep 23 > PS1=”\t > “** 
+Mon Sep 23 > PS1=”\t > “ 
 
-**10:10:20 > PS1=”Saya=\u > “** 
+10:10:20 > PS1=”Saya=\u > “
 
-**Saya=mahasiswa > PS1=”\w >”** 
+Saya=mahasiswa > PS1=”\w >” 
 
-**~ > PS1=\h >”** 
+~ > PS1=\h >”
 
 ![Screenshot 2024-09-21 123407](https://github.com/user-attachments/assets/8a19c583-5834-42fd-aea6-04a7d446d630)
 
