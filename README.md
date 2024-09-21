@@ -360,15 +360,25 @@ b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi
 dilakukan  
 $ !-5  
 
+![so 5 no 6b](https://github.com/user-attachments/assets/fd789bd4-3a11-4ef7-8beb-9a3e77d211f1)
 
-
-
+command !-5 berfungsi untuk menjalankan command dari 5 baris terakhir yang sudah pernah digunakan dan berdasarkan gambar di atas, command HISTSIZE=20 adalah command dari 5 baris terakhir yang sudah pernah digunakan di terminal
 
 c. Ulangi instruksi yang terakhir.  Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer  
 $ !!  
 
+![so 5 no 6c](https://github.com/user-attachments/assets/acefc90d-1e14-4a5b-b94c-e22f29d9d595)
+
+command !! berfungsi untuk menjalankan command terakhir yang sudah digunakan dan ^P dan ^N ini mirip dengan tanda panah atas (untuk ^P) dan tanda panah bawah (untuk ^N) yang fungsinya untuk mencari command yang sudah pernah di gunakan dari yang terakhir kali digunakan sampai command yang pertama kali digunakan jika kalian menekan ^P dalam waktu yang lama sedangkan ^N untuk mengembalikan posisi dari ^P ke command yang paling terakhir digunakan (^ adalah shortcut ctrl pada keyboard)
+
 d.  Ulangi instruksi pada history bufer nomor 150  
 $ !150  
+
+![so 5 no 6d](https://github.com/user-attachments/assets/f837c257-1c47-414c-b7e4-9b6a9368046a)
+
+![so 5 no 6dd](https://github.com/user-attachments/assets/f0c205de-df34-4ce9-a970-7eabe642a951)
+
+awalnya saya mencoba command !150 tapi terdapat pesan error, ini dikarenakan dalam history, tidak ada command prompt yang berada di nomor 150 itu karena saya menggunakan device baru untuk mengerjakan tugas praktikum ke 5 ini itulah sebabnya hanya ada 80an
 
 e.  Ulangi instruksi dengan prefix “ls”  
 $ !ls 
