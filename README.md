@@ -337,3 +337,16 @@ dari command jobs di bagian b, kita dapat melihat jika ./pwaktu.sh berada di nom
 d. Stop program background dengan utilitas kil  
 $ ps x  
 $ kill [Nomor PID]  
+
+![so 5 no 5d](https://github.com/user-attachments/assets/2102fc21-802b-4e7e-9138-c1a2532ee6d2)
+
+![so 5 no 5dd](https://github.com/user-attachments/assets/1ebb0ebe-08d8-4824-8ba6-582691fd1bd2)
+
+![so 5 no 5ddd](https://github.com/user-attachments/assets/73b778b2-1703-415a-8bc8-d146bf9df9ab)
+
+Pertama-tama gunakan command ps x untuk melihat daftar proses yang sedang berjalan di background beserta nomor PID nya dan karena saya ingin menghapus salah satu proses background dari pwaktu.sh dengan pid 3834 maka kita gunakan command kill 3834 maka proses dari pwaktu.sh dengan nomor PID 3834 akan dihentikan secara permanen, dan untuk melihatnya kita gunakan kembali ps x dan dapat dilihat jika salah satu pwaktu.sh berstatus terminatted.
+
+6. History  
+a. Ganti nilai HISTSIZE dari 1000 menjadi 20  
+$ HISTSIZE=20  
+$ h  
