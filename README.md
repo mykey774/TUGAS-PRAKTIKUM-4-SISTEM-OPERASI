@@ -75,18 +75,42 @@ Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file ya
 
 Untuk yang ini dikarenakan file .bash_login dan .bash_profile tidak ada, jadi saya akan membuat sendiri file tersebut di direktori /home/miki-purnawan/ (miki-purnawan adalah username saya) :
 
+1. nano .bash_profile, setelah menggunakan command nano, ketikkan echo "Profile dari .bash_profile" kemudian tekan ctrl + x untuk menyimpan isi file
+
 ![tugas so 5 1b](https://github.com/user-attachments/assets/f4275634-332e-4940-b132-991090b82294)
 
-1. nano .bash_profile, setelah menggunakan command nano, ketikkan echo "Profile dari .bash_profile"
+2. nano .bash_login, ketikkan echo "Profile dari .bash_login" kemudian tekan ctrl + x untuk menyimpan isi file nya
 
 ![tugas so 5 1bb](https://github.com/user-attachments/assets/7b8f15e2-048d-42ca-8553-92dedbc70d9b)
 
-2. nano .bash_login, ketikkan echo "Profile dari .bash_login"
+3. nano .bashrc, ketikkan echo "Profile dari .bashrc" di bagian atas setelah tulisan berwarna biru seperti yang di gambar kemudian simpan perubahan menggunakan ctrl + x
 
 ![tugas so 5 1bbb](https://github.com/user-attachments/assets/cb509fde-94ca-4dca-adcd-82053b6c6d14)
+
+4. nano .profile, sama seperti nano.bashrc, ketikkan echo "Profile dari .profile" dan simpan perubahan
+
 ![tugas so 5 1bbbb](https://github.com/user-attachments/assets/04a5197e-dc1d-4727-a06b-205cce71d71b)
+
+Setelah mengedit isi 4 file tersebut, coba gunakan command source seperti gambar di bawah ini apakah ada perubahan 
+
 ![tugas so 5 1bbbbb](https://github.com/user-attachments/assets/bb30d89a-b561-4a8e-a849-9567577f05b7)
-![tugas so 5 1c](https://github.com/user-attachments/assets/19712987-05a7-45c3-9120-8b22b60c66c1)
+
+c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: 
+
+$ su mahasiswa 
+
+$ exit 
+
+kemudian gunakan opsi – sebagai berikut : 
+
+$ su – mahasiswa 
+
+$ exit 
+
+Jelaskan perbedaan kedua utilitas tersebut.
+
+1. su miki-purnawan
+
 
 ![tugas so 5 2a](https://github.com/user-attachments/assets/aef04860-827b-4e88-8488-8b52d06e7df5)
 ![Screenshot 2024-09-21 123407](https://github.com/user-attachments/assets/75625774-4d82-4dfb-a656-bd48a40d1d30)
