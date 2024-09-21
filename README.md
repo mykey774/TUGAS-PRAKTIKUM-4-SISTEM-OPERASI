@@ -135,6 +135,41 @@ Saya=mahasiswa > PS1=”\w >”
 
 ~ > PS1=\h >” 
 
+Jawab :
+
+a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell 
+
+PS1='>' 
+
+export PS1
+
 ![tugas so 5 2a](https://github.com/user-attachments/assets/c5943cc9-9cfa-4164-b797-2445ae43bc5b)
+
+Kita edit file .bash_profile menggunakan prompt nano .bash_profile, lalu ketikkan "PS1='>'" dan "export PS1" 
+
 ![tugas so 5 2aa](https://github.com/user-attachments/assets/aacc719f-c7c6-42d2-84a6-e3f12ca47549)
+
+Setelah mengedit isi file .bash_profile coba cek menggunakan source .bash_profile untuk melihat apakah tanda $ berubah menjadi > sesuai dengan PS1='>'
+
+b. Eksperimen hasil PS1 :
+
+$ PS1=“\! > “ 
+
+69 > PS1=”\d > “ 
+
+Mon Sep 23 > PS1=”\t > “ 
+
+10:10:20 > PS1=”Saya=\u > “ 
+
+Saya=mahasiswa > PS1=”\w >” 
+
+~ > PS1=\h >” 
+
 ![Screenshot 2024-09-21 123407](https://github.com/user-attachments/assets/8a19c583-5834-42fd-aea6-04a7d446d630)
+
+Penjelasan :
+
+a. PS1=“\! > “ : Command ini untuk mengetahui berapa banyak history command prompt yang sudah kita gunakan dalam terminal dengan menjadikan output dari ! sebagai prompt shell sehingga prompt shell yang awalnya 
+
+b. 
+
