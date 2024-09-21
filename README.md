@@ -319,11 +319,21 @@ $ jobs
 $ find / -print > files 2>/dev/null &  
 $ jobs 
 
-![so 5 no 5a](https://github.com/user-attachments/assets/b746b8b8-e2a2-4346-90f7-15c6123c4c5b)
-![so 5 no 5aa](https://github.com/user-attachments/assets/91b67f51-44e4-4d61-89b6-eaf6f6486750)
+![so 5 no 5b](https://github.com/user-attachments/assets/24086e43-7064-4bf0-91c6-5536e6fe985f)
+
+![so 5 no 5bb](https://github.com/user-attachments/assets/9072857d-22f7-4f9a-9e80-e59b48b604c3)
  
 Jalankan program pwaktu.sh ke background dengan menambahkan & setelah ./pwaktu.sh, kemudian ketik jobs untuk melihat program yang sedang berjalan di background setelah itu ketik find / -print > files2>/dev/null command ini berfungsi unntuk mencari semua file dan direktori di sistem mulai dari root (/), menyimpan hasil pencariannya ke dalam file files, membuang semua pesan error, dan menjalankan proses ini di background. lalu ketik jobs lagi untuk melihat daftar proses yang ada di background yang sebelumnya hanya ada proses pwaktu.sh sekarang bertambah menjadi 2 yaitu proses find / -print > files2>/dev/null
 
-![so 5 no 5b](https://github.com/user-attachments/assets/24086e43-7064-4bf0-91c6-5536e6fe985f)
-![so 5 no 5bb](https://github.com/user-attachments/assets/9072857d-22f7-4f9a-9e80-e59b48b604c3)
+c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke 
+background  
+$ fg %1  
+$ bg  
+
 ![so 5 no 5c](https://github.com/user-attachments/assets/3cec501b-c9e1-45a7-a16b-3012048ea65f)
+
+dari command jobs di bagian b, kita dapat melihat jika ./pwaktu.sh berada di nomor 1 jadi kita akan ubah proses dari pwaktu yang awalnya background menjadi foreground menggunakan command fg %1, lalu untuk menghentikan proses nya sementara, kita tekan tombol ctrl + z maka pwaktu.sh akan berhenti beroperasi baik di bg maupun di fg, dan untuk mengembalikannya kita gunakan command bg dan proses pwaktu.sh akan kembali beroperasi di background
+
+d. Stop program background dengan utilitas kil  
+$ ps x  
+$ kill [Nomor PID]  
